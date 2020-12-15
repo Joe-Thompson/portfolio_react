@@ -1,5 +1,7 @@
+@import "variables";
+
 .nav_container {
-  background-color: white;
+  background-color: @accent_color;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -8,8 +10,19 @@
   height: 3rem;
   margin: 3rem auto 0 9rem;
   border-radius: 1rem;
+  border: 3px solid @side_bar_color;
 
   a {
     text-decoration: none;
+    color: @side_bar_color;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    padding: .8rem 1rem;
+    border-radius: .3rem;
+  }
+
+  a:hover {
+    background-color: @side_bar_color;
+    color: @accent_color;
   }
 }

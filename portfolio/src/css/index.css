@@ -129,6 +129,7 @@ table {
 html {
   background-color: slategray;
   color: white;
+  font-family: 'Raleway', sans-serif;
 }
 .App {
   margin-left: 4rem;
@@ -138,7 +139,7 @@ html {
   margin-top: 1rem;
 }
 .nav_container {
-  background-color: white;
+  background-color: #6495ed;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -147,9 +148,19 @@ html {
   height: 3rem;
   margin: 3rem auto 0 9rem;
   border-radius: 1rem;
+  border: 3px solid #ffffff;
 }
 .nav_container a {
   text-decoration: none;
+  color: #ffffff;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  padding: 0.8rem 1rem;
+  border-radius: 0.3rem;
+}
+.nav_container a:hover {
+  background-color: #ffffff;
+  color: #6495ed;
 }
 .landing_container {
   display: flex;
@@ -174,6 +185,7 @@ html {
   justify-content: center;
   width: 20rem;
   border-radius: 1rem;
+  border: 3px solid #ffffff;
 }
 .side_bar hr {
   width: 100%;
@@ -208,7 +220,7 @@ html {
 .contact_form {
   display: flex;
   flex-direction: column;
-  border: 5px #6495ed solid;
+  border: 3px #6495ed solid;
   border-radius: 1rem;
   width: 50rem;
   margin: 2rem 2rem 5rem;
