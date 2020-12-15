@@ -5,7 +5,7 @@ function Nav() {
         <div className='nav_container'>
             <a href=''>Projects</a>
             <a href=''>About</a>
-            <a href=''>Contact</a>
+            <a href='#contactForm'>Contact</a>
             <a href=''>Home</a>
         </div>
     )
