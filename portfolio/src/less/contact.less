@@ -1,0 +1,49 @@
+@import "variables";
+
+.contact_container {
+
+
+  h1 {
+    font-size: 2rem;
+    margin: 1rem 2rem;
+  }
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  border: 5px @accent_color solid;
+  border-radius: 1rem;
+  width: 50rem;
+  margin: 2rem 2rem 5rem;
+  padding: 2rem;
+
+  label {
+  font-size: 1.2rem;
+  margin: .5rem 0;
+  }
+
+  input {
+  border-radius: .5rem;
+  height: 1.5rem;
+  }
+
+  textarea {
+  border-radius: .5rem;
+  height: 10rem;
+  }
+
+  button {
+    margin: 1rem auto;
+    height: 3rem;
+    border-radius: 2rem;
+    width: 50%;
+    background-color: @accent_color;
+    color: @side_bar_color;
+  }
+
+  button:hover {
+   background-color: @side_bar_color;
+    color: @accent_color;
+  }
+}

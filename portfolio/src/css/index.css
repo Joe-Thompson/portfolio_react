@@ -130,6 +130,9 @@ html {
   background-color: slategray;
   color: white;
 }
+.App {
+  margin-left: 4rem;
+}
 .title {
   font-size: 1.4rem;
   margin-top: 1rem;
@@ -142,7 +145,7 @@ html {
   align-items: center;
   width: 60rem;
   height: 3rem;
-  margin: 3rem auto 0 6rem;
+  margin: 3rem auto 0 9rem;
   border-radius: 1rem;
 }
 .nav_container a {
@@ -165,7 +168,7 @@ html {
   margin: 1rem;
   background-image: url("../images/sidebar_bg.jpg");
   opacity: 20;
-  color: white;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -175,20 +178,63 @@ html {
 .side_bar hr {
   width: 100%;
   margin: 0.3rem 0 0.5rem 0;
-  color: white;
+  color: #ffffff;
   justify-content: flex-start;
 }
 .side_bar p {
-  font-size: 1.1rem;
-  line-height: 1.5rem;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: #ffffff;
 }
 .side_bar h2 {
   margin: 0 auto;
   padding: 0.5rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.side_bar h3 {
+  font-size: 1.5rem;
 }
 .profile_photo {
   border-radius: 2rem;
   height: 20rem;
   width: 15rem;
   margin: 1rem auto;
+}
+.contact_container h1 {
+  font-size: 2rem;
+  margin: 1rem 2rem;
+}
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  border: 5px #6495ed solid;
+  border-radius: 1rem;
+  width: 50rem;
+  margin: 2rem 2rem 5rem;
+  padding: 2rem;
+}
+.contact_form label {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+.contact_form input {
+  border-radius: 0.5rem;
+  height: 1.5rem;
+}
+.contact_form textarea {
+  border-radius: 0.5rem;
+  height: 10rem;
+}
+.contact_form button {
+  margin: 1rem auto;
+  height: 3rem;
+  border-radius: 2rem;
+  width: 50%;
+  background-color: #6495ed;
+  color: #ffffff;
+}
+.contact_form button:hover {
+  background-color: #ffffff;
+  color: #6495ed;
 }
