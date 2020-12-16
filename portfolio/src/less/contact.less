@@ -1,7 +1,7 @@
 @import "variables";
 
 .contact_container {
-
+  margin-top: 15rem;
 
   h1 {
     font-size: 2rem;
@@ -12,7 +12,7 @@
 .contact_form {
   display: flex;
   flex-direction: column;
-  border: 3px @accent_color solid;
+  border: 3px @light_gray solid;
   border-radius: 1rem;
   width: 50rem;
   margin: 2rem 2rem 5rem;
@@ -26,11 +26,13 @@
   input {
   border-radius: .5rem;
   height: 1.5rem;
+  background-color: @ghost_white;
   }
 
   textarea {
   border-radius: .5rem;
   height: 10rem;
+    background-color: @ghost_white;
   }
 
   button {
@@ -38,12 +40,14 @@
     height: 3rem;
     border-radius: 2rem;
     width: 50%;
-    background-color: @accent_color;
-    color: @side_bar_color;
+    background-color: @eggplant;
+    color: @ghost_white;
   }
 
   button:hover {
-   background-color: @side_bar_color;
-    color: @accent_color;
+   background-color: @ghost_white;
+   color: @deep_space_sparkle;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
   }
 }

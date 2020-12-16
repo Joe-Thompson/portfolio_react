@@ -127,19 +127,20 @@ table {
   border-spacing: 0;
 }
 html {
-  background-color: slategray;
-  color: white;
-  font-family: 'Raleway', sans-serif;
+  background-color: #4A6670;
 }
 .App {
-  margin-left: 4rem;
+  padding-left: 4rem;
+  background-color: #4A6670;
+  color: #E8E9F3;
+  font-family: 'Raleway', sans-serif;
 }
 .title {
   font-size: 1.4rem;
   margin-top: 1rem;
 }
 .nav_container {
-  background-color: #6495ed;
+  background-color: #684551;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -148,19 +149,19 @@ html {
   height: 3rem;
   margin: 3rem auto 0 9rem;
   border-radius: 1rem;
-  border: 3px solid #ffffff;
+  border: 3px solid #CECECE;
 }
 .nav_container a {
   text-decoration: none;
-  color: #ffffff;
+  color: #E8E9F3;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   padding: 0.8rem 1rem;
   border-radius: 0.3rem;
 }
 .nav_container a:hover {
-  background-color: #ffffff;
-  color: #6495ed;
+  background-color: #CECECE;
+  color: #4A6670;
 }
 .landing_container {
   display: flex;
@@ -213,6 +214,9 @@ html {
   width: 15rem;
   margin: 1rem auto;
 }
+.contact_container {
+  margin-top: 15rem;
+}
 .contact_container h1 {
   font-size: 2rem;
   margin: 1rem 2rem;
@@ -220,7 +224,7 @@ html {
 .contact_form {
   display: flex;
   flex-direction: column;
-  border: 3px #6495ed solid;
+  border: 3px #CECECE solid;
   border-radius: 1rem;
   width: 50rem;
   margin: 2rem 2rem 5rem;
@@ -233,20 +237,32 @@ html {
 .contact_form input {
   border-radius: 0.5rem;
   height: 1.5rem;
+  background-color: #E8E9F3;
 }
 .contact_form textarea {
   border-radius: 0.5rem;
   height: 10rem;
+  background-color: #E8E9F3;
 }
 .contact_form button {
   margin: 1rem auto;
   height: 3rem;
   border-radius: 2rem;
   width: 50%;
-  background-color: #6495ed;
-  color: #ffffff;
+  background-color: #684551;
+  color: #E8E9F3;
 }
 .contact_form button:hover {
-  background-color: #ffffff;
-  color: #6495ed;
+  background-color: #E8E9F3;
+  color: #4A6670;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+.carousel_container {
+  margin: 0 auto;
+}
+.carousel_container img {
+  border-radius: 1rem;
+  width: 90%;
+  height: 90%;
 }
