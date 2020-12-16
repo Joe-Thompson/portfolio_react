@@ -1,14 +1,14 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/index.css';
-import Landing from './components/Landing';
 import Nav from "./components/Nav";
-import ContactForm from "./components/Contact_Form";
+import AppRouting from './utils/AppRouting';
+import Landing from './components/Landing';
 
 function App() {
   return (
     <div className="App">
         <Nav />
         <Landing />
-        <ContactForm />
     </div>
   );
 }
