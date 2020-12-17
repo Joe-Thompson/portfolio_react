@@ -147,9 +147,14 @@ html {
   align-items: center;
   width: 60rem;
   height: 3rem;
-  margin: 3rem auto 0 9rem;
+  margin: 1rem auto 0 9rem;
   border-radius: 1rem;
   border: 3px solid #CECECE;
+  transition: all 0.7s ease-in;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 9999;
 }
 .nav_container a {
   text-decoration: none;
@@ -175,6 +180,13 @@ html {
   font-size: 1.5rem;
   line-height: 2rem;
 }
+.lead_content h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  padding-top: 2rem;
+  text-decoration: underline;
+}
 .side_bar {
   padding: 2rem;
   margin: 1rem;
@@ -187,6 +199,7 @@ html {
   width: 20rem;
   border-radius: 1rem;
   border: 3px solid #ffffff;
+  position: relative;
 }
 .side_bar hr {
   width: 100%;
@@ -249,20 +262,66 @@ html {
   height: 3rem;
   border-radius: 2rem;
   width: 50%;
-  background-color: #684551;
-  color: #E8E9F3;
+  background-color: #CECECE;
+  color: #684551;
 }
 .contact_form button:hover {
-  background-color: #E8E9F3;
-  color: #4A6670;
+  background-color: #684551;
+  color: #E8E9F3;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
 }
 .carousel_container {
-  margin: 0 auto;
+  margin-left: 11rem;
+  margin-top: -38rem;
+  width: 60rem;
 }
 .carousel_container img {
   border-radius: 1rem;
-  width: 90%;
-  height: 90%;
+  height: 33rem;
+}
+.carousel_container h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 2rem 0;
+  padding-top: 2rem;
+  text-decoration: underline;
+}
+.carousel_container p {
+  margin-top: 10rem;
+  background-color: rgba(232, 233, 243, 0.6);
+  color: #684551;
+  font-weight: bold;
+  border-radius: 1rem;
+}
+.project_about {
+  width: 60rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.project_about h2 {
+  padding-bottom: 1rem;
+  font-size: 1.8rem;
+}
+.project_about h5 {
+  margin-left: 0;
+}
+.project_links {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0.5rem 1rem 0;
+}
+.project_links a {
+  text-decoration: none;
+  color: #684551;
+  background-color: #CECECE;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+  margin: 1rem;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+.project_links a:hover {
+  background-color: #684551;
+  color: #E8E9F3;
 }
