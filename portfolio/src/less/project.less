@@ -1,11 +1,67 @@
-
+@import "variables";
 
 .carousel_container {
-  margin: 0 auto;
+  margin-left: 11rem;
+  margin-top: -38rem;
+  width: 60rem;
 
   img {
   border-radius: 1rem;
-    width: 90%;
-    height: 90%;
+    height: 33rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 2rem 0;
+    padding-top: 2rem;
+    text-decoration: underline;
+  }
+
+  p {
+    margin-top: 10rem;
+    background-color: @ghost_white_rgba;
+    color: @eggplant;
+    font-weight: bold;
+    border-radius: 1rem;
+  }
+}
+
+.project_about {
+
+  width: 60rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+
+  h2 {
+    padding-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+
+  h5 {
+    margin-left: 0;
+  }
+}
+
+.project_links {
+  display: flex;
+  flex-direction: row;
+
+  margin: 1rem .5rem 1rem 0;
+
+  a {
+    text-decoration: none;
+    color: @eggplant;
+    background-color: @light_gray;
+    padding:.8rem;
+    border-radius: .8rem;
+    margin: 1rem;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+  }
+
+  a:hover {
+    background-color: @eggplant;
+    color: @ghost_white;
   }
 }

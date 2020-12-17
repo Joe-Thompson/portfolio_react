@@ -7,17 +7,23 @@ function Landing() {
     return (
         <div>
         <div className='landing_container'>
-            <div className='lead_content'>
+            <div id='about' className='lead_content'>
+                <h3>About</h3>
                 <p>
-                    Over the past three years I have worked diligently to gain the technical knowledge and skill set through Lambda, as well as other courses for the transition into the web development field . Through Lambda, I have become proficient in JavaScript, React and Node. In my current position with Shape Corp., I have refined my critical thinking skills to not only find solutions to problems but to understand and address why the issues existed and how to mitigate future recurrences. I work daily to improve my communication and team building skills to foster a fun and productive work environment. To kick 2021 off I will be starting my AAS in Software Development at Muskegon Community College, to bolster my certificate through Lambda School. I look forward to discussing my skill set and the open position with you soon.
+                    Over the past three years I have worked diligently to gain the technical knowledge and skill set through Lambda, as well as other courses for the transition into the web development field . Through Lambda, I have become proficient in JavaScript, React and Node. In my current position with Shape Corp., I have refined my critical thinking skills to not only find solutions to problems but to understand and address why the issues existed and how to mitigate future recurrences. I work daily to improve my communication and team building skills to foster a fun and productive work environment. To kick 2021 off I will be starting my AAS in Software Development at Muskegon Community College, to bolster my certificate through Lambda School.
                 </p>
                 <br />
                 <p>
-                    Over the past three years I have worked diligently to gain the technical knowledge and skill set through Lambda, as well as other courses for the transition into the web development field . Through Lambda, I have become proficient in JavaScript, React and Node. In my current position with Shape Corp., I have refined my critical thinking skills to not only find solutions to problems but to understand and address why the issues existed and how to mitigate future recurrences. I work daily to improve my communication and team building skills to foster a fun and productive work environment. To kick 2021 off I will be starting my AAS in Software Development at Muskegon Community College, to bolster my certificate through Lambda School. I look forward to discussing my skill set and the open position with you soon.
+                    When I am away from my machine my hobbies include softball, kayaking, and fishing.
+                    My current job as a team lead in a fast paced automotive welding department has helped me
+                    to develop skills to handle employee relations, stress and deadlines.  My first introduction
+                    to software development came 15 years ago when a group of friends and I embarked on creating
+                    our very own video game.  With no programming experience in the group we decided to take the
+                    plunge in the deep end with C++.  Needless to say the project fell flat, but it also created
+                    a life long love of programming for me.
 
                 </p>
                 <br />
-                <Projects />
             </div>
             <div className='side_bar'>
                 <h2 className='title'>Joe Thompson</h2>
@@ -58,6 +64,7 @@ function Landing() {
 
             </div>
             </div>
+            <Projects />
             <ContactForm />
         </div>
     )
