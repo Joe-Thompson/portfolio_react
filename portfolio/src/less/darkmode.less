@@ -17,7 +17,7 @@
 .dark-mode__toggle {
   background: @deep_space_sparkle;
   border-radius: 50px;
-  border: 1px solid @ghost_white;
+  border: 1px solid @light_gray;
   height: 20px;
   position: relative;
   width: 40px;
@@ -51,6 +51,29 @@
     background-color: @deep_space_sparkle;
     padding-top: .3rem;
     transition:.7s ease-in-out;
+
+    .nav_container {
+      background-color: @eggplant;
+      color: @ghost_white;
+      border: 1px solid @ghost_white;
+
+      a {
+        color: @ghost_white;
+      }
+
+      a:hover {
+        background-color: @light_gray;
+        color: @eggplant;
+      }
+    }
+
+    .dark-mode__toggle {
+      background-color: @ghost_white;
+    }
+
+    .toggle {
+      background-color: @deep_space_sparkle;
+    }
 
     h1 {
       color: @ghost_white;

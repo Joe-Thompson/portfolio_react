@@ -4,6 +4,8 @@ import niyon_login from '../images/niyon_login.png';
 import niyon_dashboard from '../images/niyon_dashboard.png';
 import niyon_search from '../images/niyon_search.png';
 import niyon_profile from '../images/niyon_profile.png';
+import niyon_room from '../images/niyon_room.png';
+import niyon_chat from '../images/niyon_chat.png';
 import dev_comment from '../images/dev_comment.png';
 import dev_create from '../images/dev_create.png';
 import dev_dashboard from '../images/dev_dashboard.png';
@@ -66,6 +68,29 @@ function Projects() {
                     <Carousel.Caption>
                         <p>Mentors and mentees have the ability to search by job title, location,
                         or technology stack to send a request to connect to other users.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item interval={2000}>
+                    <img
+                        className="d-block w-100"
+                        src={niyon_room}
+                        alt="First slide"
+                    />
+                    <br />
+                    <Carousel.Caption>
+                        <p>Users have the ability to join rooms based on a list of languages, frameworks, or
+                        soft-skills such as interviewing. </p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item interval={2000}>
+                    <img
+                        className="d-block w-100"
+                        src={niyon_chat}
+                        alt="First slide"
+                    />
+                    <br />
+                    <Carousel.Caption>
+                        <p>Chat rooms are a great way to have lively discussion.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

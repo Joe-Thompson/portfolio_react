@@ -141,7 +141,7 @@ html {
   margin-top: 1rem;
 }
 .nav_container {
-  background-color: #684551;
+  background-color: #E8E9F3;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -150,7 +150,7 @@ html {
   height: 3rem;
   margin: 1rem auto 0 9rem;
   border-radius: 1rem;
-  border: 3px solid #CECECE;
+  border: 3px solid #684551;
   transition: all 0.7s ease-in;
   position: sticky;
   top: 0;
@@ -159,15 +159,15 @@ html {
 }
 .nav_container a {
   text-decoration: none;
-  color: #E8E9F3;
+  color: #684551;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   padding: 0.8rem 1rem;
   border-radius: 0.3rem;
 }
 .nav_container a:hover {
-  background-color: #CECECE;
-  color: #4A6670;
+  background-color: #684551;
+  color: #E8E9F3;
 }
 .landing_container {
   display: flex;
@@ -255,13 +255,13 @@ html {
   border-radius: 0.5rem;
   height: 1.5rem;
   background-color: #CECECE;
-  color: #4A6670;
+  color: #684551;
 }
 .contact_form textarea {
   border-radius: 0.5rem;
   height: 10rem;
   background-color: #CECECE;
-  color: #4A6670;
+  color: #E8E9F3;
 }
 .contact_form button {
   margin: 1rem auto;
@@ -347,7 +347,7 @@ html {
 .dark-mode__toggle {
   background: #4A6670;
   border-radius: 50px;
-  border: 1px solid #E8E9F3;
+  border: 1px solid #CECECE;
   height: 20px;
   position: relative;
   width: 40px;
@@ -377,6 +377,24 @@ html {
   background-color: #4A6670;
   padding-top: 0.3rem;
   transition: 0.7s ease-in-out;
+}
+.dark-mode .App .nav_container {
+  background-color: #684551;
+  color: #E8E9F3;
+  border: 1px solid #E8E9F3;
+}
+.dark-mode .App .nav_container a {
+  color: #E8E9F3;
+}
+.dark-mode .App .nav_container a:hover {
+  background-color: #CECECE;
+  color: #684551;
+}
+.dark-mode .App .dark-mode__toggle {
+  background-color: #E8E9F3;
+}
+.dark-mode .App .toggle {
+  background-color: #4A6670;
 }
 .dark-mode .App h1 {
   color: #E8E9F3;
