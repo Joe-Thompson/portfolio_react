@@ -2,27 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="585c2197-e9b3-481b-960e-fe0bd6306497" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/portfolio/src/images/dev_comment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/src/images/dev_create.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/src/images/dev_dashboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/src/images/dev_edit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/src/images/dev_login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/src/images/dev_replys.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/src/images/dev_search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/src/less/darkmode.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/src/utils/darkmode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/src/utils/localstorage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Landing.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Projects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/less/contact.less" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/less/contact.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/less/global.less" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/less/global.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/less/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/less/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/less/landing.less" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/less/landing.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/less/navigation.less" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/less/navigation.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/less/project.less" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/less/project.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/less/variables.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +70,8 @@
       <workItem from="1607960063891" duration="9936000" />
       <workItem from="1607988706921" duration="5177000" />
       <workItem from="1608060761356" duration="18493000" />
-      <workItem from="1608157074621" duration="11131000" />
+      <workItem from="1608157074621" duration="11496000" />
+      <workItem from="1608248457198" duration="6094000" />
     </task>
     <servers />
   </component>

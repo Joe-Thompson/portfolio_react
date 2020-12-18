@@ -127,12 +127,13 @@ table {
   border-spacing: 0;
 }
 html {
-  background-color: #4A6670;
+  background-color: #E8E9F3;
 }
 .App {
+  transition: 0.7s ease-in-out;
   padding-left: 4rem;
-  background-color: #4A6670;
-  color: #E8E9F3;
+  background-color: #E8E9F3;
+  color: #4A6670;
   font-family: 'Raleway', sans-serif;
 }
 .title {
@@ -145,7 +146,7 @@ html {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 60rem;
+  width: 65rem;
   height: 3rem;
   margin: 1rem auto 0 9rem;
   border-radius: 1rem;
@@ -186,19 +187,20 @@ html {
   margin-bottom: 1.5rem;
   padding-top: 2rem;
   text-decoration: underline;
+  color: #684551;
 }
 .side_bar {
   padding: 2rem;
   margin: 1rem;
   background-image: url("../images/sidebar_bg.jpg");
   opacity: 20;
-  color: #ffffff;
+  color: #E8E9F3;
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 20rem;
   border-radius: 1rem;
-  border: 3px solid #ffffff;
+  border: 5px solid #684551;
   position: relative;
 }
 .side_bar hr {
@@ -233,15 +235,17 @@ html {
 .contact_container h1 {
   font-size: 2rem;
   margin: 1rem 2rem;
+  color: #684551;
 }
 .contact_form {
   display: flex;
   flex-direction: column;
-  border: 3px #CECECE solid;
+  border: 3px #684551 solid;
   border-radius: 1rem;
   width: 50rem;
   margin: 2rem 2rem 5rem;
   padding: 2rem;
+  color: #684551;
 }
 .contact_form label {
   font-size: 1.2rem;
@@ -250,12 +254,14 @@ html {
 .contact_form input {
   border-radius: 0.5rem;
   height: 1.5rem;
-  background-color: #E8E9F3;
+  background-color: #CECECE;
+  color: #4A6670;
 }
 .contact_form textarea {
   border-radius: 0.5rem;
   height: 10rem;
-  background-color: #E8E9F3;
+  background-color: #CECECE;
+  color: #4A6670;
 }
 .contact_form button {
   margin: 1rem auto;
@@ -286,6 +292,7 @@ html {
   margin: 2rem 0;
   padding-top: 2rem;
   text-decoration: underline;
+  color: #684551;
 }
 .carousel_container p {
   margin-top: 10rem;
@@ -302,6 +309,7 @@ html {
 .project_about h2 {
   padding-bottom: 1rem;
   font-size: 1.8rem;
+  color: #684551;
 }
 .project_about h5 {
   margin-left: 0;
@@ -324,4 +332,68 @@ html {
 .project_links a:hover {
   background-color: #684551;
   color: #E8E9F3;
+}
+.dark_mode_container {
+  display: flex;
+  justify-content: flex-end;
+  width: 11rem;
+}
+.dark_mode_container p {
+  margin-right: 1rem;
+}
+.dark_mode_container ion-icon {
+  margin-right: 1rem;
+}
+.dark-mode__toggle {
+  background: #4A6670;
+  border-radius: 50px;
+  border: 1px solid #E8E9F3;
+  height: 20px;
+  position: relative;
+  width: 40px;
+}
+.toggle {
+  background: #E8E9F3;
+  border-radius: 50px;
+  height: 18px;
+  left: 0;
+  position: absolute;
+  transition: 0.2s;
+  width: 20px;
+}
+.toggled {
+  left: 18px;
+}
+.dark-mode {
+  background-color: #4A6670;
+  color: #E8E9F3;
+  transition: 1s ease-in-out;
+}
+.dark-mode html {
+  background-color: #4A6670;
+}
+.dark-mode .App {
+  color: #E8E9F3;
+  background-color: #4A6670;
+  padding-top: 0.3rem;
+  transition: 0.7s ease-in-out;
+}
+.dark-mode .App h1 {
+  color: #E8E9F3;
+}
+.dark-mode .App h2 {
+  color: #E8E9F3;
+}
+.dark-mode .App h3 {
+  color: #E8E9F3;
+}
+.dark-mode .App .contact_container {
+  padding-bottom: 1rem;
+}
+.dark-mode .App .contact_form {
+  color: #E8E9F3;
+  border: 3px #E8E9F3 solid;
+}
+.dark-mode .App .side_bar {
+  border: 5px solid #E8E9F3;
 }

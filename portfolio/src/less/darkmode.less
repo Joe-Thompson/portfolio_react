@@ -1,0 +1,81 @@
+@import "variables";
+
+.dark_mode_container {
+  display: flex;
+  justify-content: flex-end;
+  width: 11rem;
+
+  p {
+    margin-right: 1rem;
+  }
+
+  ion-icon {
+    margin-right: 1rem;
+  }
+
+}
+.dark-mode__toggle {
+  background: @deep_space_sparkle;
+  border-radius: 50px;
+  border: 1px solid @ghost_white;
+  height: 20px;
+  position: relative;
+  width: 40px;
+}
+
+.toggle {
+  background: @ghost_white;
+  border-radius: 50px;
+  height: 18px;
+  left: 0;
+  position: absolute;
+  transition: 0.2s;
+  width: 20px;
+}
+
+.toggled {
+  left: 18px;
+}
+
+.dark-mode {
+  background-color: @deep_space_sparkle;
+  color: @ghost_white;
+  transition:1s ease-in-out;
+
+  html {
+    background-color: @deep_space_sparkle;
+  }
+
+  .App {
+    color: @ghost_white;
+    background-color: @deep_space_sparkle;
+    padding-top: .3rem;
+    transition:.7s ease-in-out;
+
+    h1 {
+      color: @ghost_white;
+    }
+
+    h2 {
+      color: @ghost_white;
+    }
+
+    h3 {
+      color: @ghost_white;
+    }
+
+    .contact_container {
+      padding-bottom: 1rem;
+
+    }
+
+    .contact_form {
+      color: @ghost_white;
+      border: 3px @ghost_white solid;
+    }
+
+    .side_bar {
+      border: 5px solid @ghost_white;
+    }
+  }
+}
