@@ -26,8 +26,11 @@ function Landing() {
                 <br />
             </div>
             <div className='side_bar'>
-                <h2 className='title'>Joe Thompson</h2>
-                <h2 className='title'>Full Stack Web Developer</h2>
+                <div className='side_bar_title'>
+                    <h2 className='title'>Joe Thompson</h2>
+                    <h2 className='title'>Full Stack Web Developer</h2>
+                </div>
+
                 <img src={Joe} alt='profile_photo' className='profile_photo' />
 
                 <h3 className='title'>Languages</h3>

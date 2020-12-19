@@ -4,6 +4,7 @@
   display: flex;
   justify-content: flex-end;
   width: 11rem;
+  color: @dark_mode_them;
 
   p {
     margin-right: 1rem;
@@ -15,7 +16,7 @@
 
 }
 .dark-mode__toggle {
-  background: @deep_space_sparkle;
+  background: @dark_mode_them;
   border-radius: 50px;
   border: 1px solid @light_gray;
   height: 20px;
@@ -38,17 +39,17 @@
 }
 
 .dark-mode {
-  background-color: @deep_space_sparkle;
+  background-color: @dark_mode_them;
   color: @ghost_white;
   transition:1s ease-in-out;
 
   html {
-    background-color: @deep_space_sparkle;
+    background-color: @dark_mode_them;
   }
 
   .App {
-    color: @ghost_white;
-    background-color: @deep_space_sparkle;
+    color: @ghost_white_rgba;
+    background-color: @dark_mode_them;
     padding-top: .3rem;
     transition:.7s ease-in-out;
 
@@ -72,7 +73,7 @@
     }
 
     .toggle {
-      background-color: @deep_space_sparkle;
+      background-color: @dark_mode_them;
     }
 
     h1 {
@@ -99,6 +100,10 @@
 
     .side_bar {
       border: 5px solid @ghost_white;
+    }
+
+    .dark_mode_container {
+      color: @ghost_white;
     }
   }
 }
