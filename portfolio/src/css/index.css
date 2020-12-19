@@ -148,7 +148,7 @@ html {
   align-items: center;
   width: 65rem;
   height: 3rem;
-  margin: 1rem auto 0 9rem;
+  margin: 1rem auto 0 6rem;
   border-radius: 1rem;
   border: 3px solid #684551;
   transition: all 0.7s ease-in;
@@ -192,7 +192,8 @@ html {
 .side_bar {
   padding: 2rem;
   margin: 1rem;
-  background-image: url("../images/sidebar_bg.jpg");
+  background-image: url("../images/mother.jpg");
+  background-size: cover;
   opacity: 20;
   color: #E8E9F3;
   display: flex;
@@ -229,6 +230,10 @@ html {
   width: 15rem;
   margin: 1rem auto;
 }
+.side_bar_title {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 1rem;
+}
 .contact_container {
   margin-top: 15rem;
 }
@@ -261,7 +266,7 @@ html {
   border-radius: 0.5rem;
   height: 10rem;
   background-color: #CECECE;
-  color: #E8E9F3;
+  color: #684551;
 }
 .contact_form button {
   margin: 1rem auto;
@@ -337,6 +342,7 @@ html {
   display: flex;
   justify-content: flex-end;
   width: 11rem;
+  color: #121212;
 }
 .dark_mode_container p {
   margin-right: 1rem;
@@ -345,7 +351,7 @@ html {
   margin-right: 1rem;
 }
 .dark-mode__toggle {
-  background: #4A6670;
+  background: #121212;
   border-radius: 50px;
   border: 1px solid #CECECE;
   height: 20px;
@@ -365,16 +371,16 @@ html {
   left: 18px;
 }
 .dark-mode {
-  background-color: #4A6670;
+  background-color: #121212;
   color: #E8E9F3;
   transition: 1s ease-in-out;
 }
 .dark-mode html {
-  background-color: #4A6670;
+  background-color: #121212;
 }
 .dark-mode .App {
-  color: #E8E9F3;
-  background-color: #4A6670;
+  color: rgba(232, 233, 243, 0.6);
+  background-color: #121212;
   padding-top: 0.3rem;
   transition: 0.7s ease-in-out;
 }
@@ -394,7 +400,7 @@ html {
   background-color: #E8E9F3;
 }
 .dark-mode .App .toggle {
-  background-color: #4A6670;
+  background-color: #121212;
 }
 .dark-mode .App h1 {
   color: #E8E9F3;
@@ -414,4 +420,7 @@ html {
 }
 .dark-mode .App .side_bar {
   border: 5px solid #E8E9F3;
+}
+.dark-mode .App .dark_mode_container {
+  color: #E8E9F3;
 }
