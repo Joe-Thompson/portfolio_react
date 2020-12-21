@@ -96,6 +96,27 @@
     .contact_form {
       color: @ghost_white;
       border: 3px @ghost_white solid;
+      background-color: @eggplant_rgba;
+
+      input {
+        color: @dark_mode_them;
+      }
+
+      textarea{
+        color: @dark_mode_them;
+      }
+
+      button {
+        background-color: @light_gray;
+        color: @eggplant;
+      }
+
+      button:hover {
+        background-color: @success_green;
+        color: @ghost_white;
+        transition: all .5s ease;
+        -webkit-transition: all .5s ease;
+      }
     }
 
     .side_bar {
@@ -105,5 +126,14 @@
     .dark_mode_container {
       color: @ghost_white;
     }
+  }
+
+  .tarot_p {
+    color: @ghost_white_rgba;
+  }
+
+  #tarot_p_background {
+    background-color: @tarot_caption_bg;
+    padding: .5rem;
   }
 }

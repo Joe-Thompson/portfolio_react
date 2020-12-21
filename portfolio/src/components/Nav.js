@@ -13,8 +13,8 @@ function Nav() {
 
     return (
         <div className='nav_container'>
-            <a href='#projects'>Projects</a>
             <a href='#about'>About</a>
+            <a href='#projects'>Projects</a>
             <a href='#contactForm'>Contact</a>
             <div className='dark_mode_container'>
                 <p>{!darkMode ? title : 'Light Mode'}</p>

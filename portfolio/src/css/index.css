@@ -251,6 +251,7 @@ html {
   margin: 2rem 2rem 5rem;
   padding: 2rem;
   color: #684551;
+  background-size: cover;
 }
 .contact_form label {
   font-size: 1.2rem;
@@ -273,11 +274,11 @@ html {
   height: 3rem;
   border-radius: 2rem;
   width: 50%;
-  background-color: #CECECE;
-  color: #684551;
+  background-color: #684551;
+  color: #E8E9F3;
 }
 .contact_form button:hover {
-  background-color: #684551;
+  background-color: #5cb85c;
   color: #E8E9F3;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
@@ -337,6 +338,21 @@ html {
 .project_links a:hover {
   background-color: #684551;
   color: #E8E9F3;
+}
+.tarot_img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.tarot_img img {
+  margin: 1rem 8rem;
+  padding: 0 1rem;
+  border-radius: 1.3rem;
+}
+.tarot_p {
+  margin: 0 auto 12rem;
+  width: 15rem;
+  line-height: 2;
 }
 .dark_mode_container {
   display: flex;
@@ -417,10 +433,34 @@ html {
 .dark-mode .App .contact_form {
   color: #E8E9F3;
   border: 3px #E8E9F3 solid;
+  background-color: rgba(104, 69, 81, 0.7);
+}
+.dark-mode .App .contact_form input {
+  color: #121212;
+}
+.dark-mode .App .contact_form textarea {
+  color: #121212;
+}
+.dark-mode .App .contact_form button {
+  background-color: #CECECE;
+  color: #684551;
+}
+.dark-mode .App .contact_form button:hover {
+  background-color: #5cb85c;
+  color: #E8E9F3;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
 }
 .dark-mode .App .side_bar {
   border: 5px solid #E8E9F3;
 }
 .dark-mode .App .dark_mode_container {
   color: #E8E9F3;
+}
+.dark-mode .tarot_p {
+  color: rgba(232, 233, 243, 0.6);
+}
+.dark-mode #tarot_p_background {
+  background-color: rgba(232, 233, 243, 0.1);
+  padding: 0.5rem;
 }

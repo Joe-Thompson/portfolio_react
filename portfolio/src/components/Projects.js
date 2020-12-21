@@ -13,6 +13,14 @@ import dev_edit from '../images/dev_edit.png';
 import dev_login from '../images/dev_login.png';
 import dev_replys from '../images/dev_replys.png';
 import dev_search from '../images/dev_search.png';
+import tar_login from '../images/tar_login.png';
+import tar_register from '../images/tar_register.png';
+import tar_landing from '../images/tar_landing.png';
+import tar_ham from '../images/tar_ham_nav.png';
+import tar_footer from '../images/tar_footer.png';
+import tar_cards from '../images/tar_cards.png';
+import tar_card from '../images/tar_card.png';
+import tar_note from '../images/tar_note.png';
 
 
 function Projects() {
@@ -231,6 +239,113 @@ function Projects() {
                     </div>
                 </div>
             </div>
+            <br />
+                <Carousel>
+                    <Carousel.Item interval={2000}>
+                        <div className='tarot_img'>
+                        <img
+                            className="d-block w-100"
+                            src={tar_login}
+                            alt="First slide"
+                        />
+                        <img
+                            className="d-block w-100"
+                            src={tar_register}
+                            alt="First slide"
+                        />
+                        </div>
+                        <br />
+                        <Carousel.Caption>
+                            <p id='tarot_p_background' className='tarot_p'>Login component for existing users and a route to
+                            our registration component for new users.</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item interval={2000}>
+                        <div className='tarot_img'>
+                            <img
+                                className="d-block w-100"
+                                src={tar_landing}
+                                alt="First slide"
+                            />
+                            <img
+                                className="d-block w-100"
+                                src={tar_ham}
+                                alt="First slide"
+                            />
+                        </div>
+                        <br />
+                        <Carousel.Caption>
+                            <p id='tarot_p_background' className='tarot_p'>The landing component has a brief introduction to
+                            watch tarot cards are and how to read them.  Hidden hamburger
+                            menu for easy navigation on mobile.</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item interval={2000}>
+                        <div className='tarot_img'>
+                            <img
+                                className="d-block w-100"
+                                src={tar_footer}
+                                alt="First slide"
+                            />
+                            <img
+                                className="d-block w-100"
+                                src={tar_cards}
+                                alt="First slide"
+                            />
+                        </div>
+                        <br />
+                        <Carousel.Caption>
+                            <p id='tarot_p_background' className='tarot_p'>A footer navigation menu is present on the landing page for
+                                the user to easily jump in.  Every category has all cards
+                            listed with their quote.</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item interval={2000}>
+                        <div className='tarot_img'>
+                            <img
+                                className="d-block w-100"
+                                src={tar_card}
+                                alt="First slide"
+                            />
+                            <img
+                                className="d-block w-100"
+                                src={tar_note}
+                                alt="First slide"
+                            />
+                        </div>
+                        <br />
+                        <Carousel.Caption>
+                            <p id='tarot_p_background' className='tarot_p'>Selecting a card gives the user an in depth summary of the card
+                            and how to read the card in each position.  Every card also has a thread
+                            for users to post their own interruption of the card. </p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                </Carousel>
+                <div className='project_about'>
+                    <h2>The Tarot Reader: Rider Waite edition</h2>
+                    <h5>
+                        The Tarot Reader app was a personal project I did for my wife and her friends.  My aim was to
+                        create a platform that users could not only educate themselves on tarot reading but to also
+                        allow them to share their own thoughts behind what the cards really mean.  All cards have their
+                        recommended meaning based on position, but also have a thread for users to share their own thoughts.
+                        The next step in the development cycle for The Tarot Reader is to implement a profile section
+                        for users and to look into push notifications for a mention in the thread.
+                    </h5>
+                    <br />
+                    <h5>
+                        The Tarot Reader is a mobile only app created with React.  I choose to use redux as my
+                        state management system, basic CSS3 for styling, and react router to handle my urls.  The
+                        server is built in Node.js with the Express framework and a PostgreSQL database.  I use the
+                        query builder Knex.js to interact with the database and return data to route handlers.  For
+                        authentication I used JSON web tokens to interact with the front end, and for user password
+                        protection I chose to use salting as the method to encrypt passwords.
+                    </h5>
+                    <div className='project_links'>
+                        <a href='https://rider-waite-tarot.netlify.app/'>Deployed Site</a>
+                        <a href='https://github.com/Tawne-Tarot-Cards/Front-End'>Frontend Repo</a>
+                        <a href='https://github.com/Tawne-Tarot-Cards/Back-End'>Backend Repo</a>
+                    </div>
+                </div>
         </div>
     )
 }
