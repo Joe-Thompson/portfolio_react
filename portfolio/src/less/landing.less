@@ -1,16 +1,30 @@
 @import "variables";
+@import "mixins";
 
 .landing_container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
+  .responsive(1675px, {
+    flex-direction: column-reverse;
+  })
 }
+
 .lead_content {
   padding: 2rem;
   margin: 2rem;
   width: 60rem;
   font-size: 1.5rem;
   line-height: 2rem;
+
+  .responsive(1675px, {
+    margin: 0 auto;
+  });
+
+  .responsive(980px, {
+    width: 45rem;
+  });
 
   h3 {
     font-size: 2.5rem;
@@ -37,6 +51,69 @@
   //box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
   //-webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
   position: relative;
+
+  .responsive(1675px, {
+    align-content: center;
+    align-self: center;
+    display: block;
+    width: 1200px;
+    margin: 0 auto;
+    background-image: url("../images/sidebar_bg.jpeg");
+
+    img {
+      //display: flex;
+      //justify-content: center;
+      display: none;
+    }
+
+    .tablet_container {
+      display: flex;
+      flex-direction: row;
+      margin: 5px;
+
+      .tablet_mode {
+        width: 300px;
+        background-color: @black_rgba;
+      }
+    }
+  });
+
+  .responsive(1250px, {
+    width: 900px;
+  });
+
+  .responsive(1050px, {
+    width: 700px;
+  });
+
+  .responsive(755px, {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 550px;
+
+    .tablet_container {
+      flex-wrap: wrap;
+      width: 500px;
+    }
+
+    .tablet_btn {
+      display: flex;
+      margin: 1rem auto;
+    }
+
+    .tablet_mode {
+      display: none;
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    .hide_sidebar {
+      .tablet_mode {
+        display: contents;
+      }
+    }
+  });
 
 
   hr {
@@ -74,6 +151,21 @@
 .side_bar_title {
   background-color: @black_rgba;
   border-radius: 1rem;
+}
+
+.tablet_btn {
+  display: none;
+  padding: .5rem;
+  width: 15rem;
+  border-radius: 3rem;
+  justify-content: center;
+  transition-duration: 0.4s;
+  background-color: @light_gray;
+  color: @eggplant;
+}
+
+.show_less {
+  display: none;
 }
 
 
