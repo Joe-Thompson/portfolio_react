@@ -136,6 +136,11 @@ html {
   color: #4A6670;
   font-family: 'Raleway', sans-serif;
 }
+@media only screen and (max-width: 1675px) {
+  .App {
+    margin-left: -4rem;
+  }
+}
 .title {
   font-size: 1.4rem;
   margin-top: 1rem;
@@ -157,6 +162,21 @@ html {
   left: 0;
   z-index: 9999;
 }
+@media only screen and (max-width: 1675px) {
+  .nav_container {
+    margin: 2rem auto;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .nav_container {
+    width: 55rem;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .nav_container {
+    width: 40rem;
+  }
+}
 .nav_container a {
   text-decoration: none;
   color: #684551;
@@ -174,12 +194,27 @@ html {
   flex-direction: row;
   justify-content: space-around;
 }
+@media only screen and (max-width: 1675px) {
+  .landing_container {
+    flex-direction: column-reverse;
+  }
+}
 .lead_content {
   padding: 2rem;
   margin: 2rem;
   width: 60rem;
   font-size: 1.5rem;
   line-height: 2rem;
+}
+@media only screen and (max-width: 1675px) {
+  .lead_content {
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .lead_content {
+    width: 45rem;
+  }
 }
 .lead_content h3 {
   font-size: 2.5rem;
@@ -203,6 +238,62 @@ html {
   border-radius: 1rem;
   border: 5px solid #684551;
   position: relative;
+}
+@media only screen and (max-width: 1675px) {
+  .side_bar {
+    align-content: center;
+    align-self: center;
+    display: block;
+    width: 1200px;
+    margin: 0 auto;
+    background-image: url("../images/sidebar_bg.jpeg");
+  }
+  .side_bar img {
+    display: none;
+  }
+  .side_bar .tablet_container {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+  }
+  .side_bar .tablet_container .tablet_mode {
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .side_bar {
+    width: 900px;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .side_bar {
+    width: 700px;
+  }
+}
+@media only screen and (max-width: 755px) {
+  .side_bar {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 550px;
+  }
+  .side_bar .tablet_container {
+    flex-wrap: wrap;
+    width: 500px;
+  }
+  .side_bar .tablet_btn {
+    display: flex;
+    margin: 1rem auto;
+  }
+  .side_bar .tablet_mode {
+    display: none;
+  }
+  .side_bar .tablet_mode p {
+    font-size: 1rem;
+  }
+  .side_bar .hide_sidebar .tablet_mode {
+    display: contents;
+  }
 }
 .side_bar hr {
   width: 100%;
@@ -234,6 +325,19 @@ html {
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 1rem;
 }
+.tablet_btn {
+  display: none;
+  padding: 0.5rem;
+  width: 15rem;
+  border-radius: 3rem;
+  justify-content: center;
+  transition-duration: 0.4s;
+  background-color: #CECECE;
+  color: #684551;
+}
+.show_less {
+  display: none;
+}
 .contact_container {
   margin-top: 15rem;
 }
@@ -241,6 +345,13 @@ html {
   font-size: 2rem;
   margin: 1rem 2rem;
   color: #684551;
+}
+@media only screen and (max-width: 1050px) {
+  .contact_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .contact_form {
   display: flex;
@@ -252,6 +363,11 @@ html {
   padding: 2rem;
   color: #684551;
   background-size: cover;
+}
+@media only screen and (max-width: 850px) {
+  .contact_form {
+    width: 40rem;
+  }
 }
 .contact_form label {
   font-size: 1.2rem;
@@ -288,6 +404,21 @@ html {
   margin-top: -38rem;
   width: 60rem;
 }
+@media only screen and (max-width: 1675px) {
+  .carousel_container {
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .carousel_container {
+    width: 45rem;
+  }
+}
+@media only screen and (max-width: 755px) {
+  .carousel_container {
+    width: 38rem;
+  }
+}
 .carousel_container img {
   border-radius: 1rem;
   height: 33rem;
@@ -311,6 +442,16 @@ html {
   width: 60rem;
   font-size: 1.5rem;
   line-height: 2rem;
+}
+@media only screen and (max-width: 1050px) {
+  .project_about {
+    width: 45rem;
+  }
+}
+@media only screen and (max-width: 755px) {
+  .project_about {
+    width: 35rem;
+  }
 }
 .project_about h2 {
   padding-bottom: 1rem;
@@ -338,6 +479,16 @@ html {
 .project_links a:hover {
   background-color: #684551;
   color: #E8E9F3;
+}
+@media only screen and (max-width: 1050px) {
+  .project_links a {
+    margin: 1rem auto;
+  }
+}
+@media only screen and (max-width: 755px) {
+  .project_links a {
+    font-size: 1rem;
+  }
 }
 .tarot_img {
   display: flex;

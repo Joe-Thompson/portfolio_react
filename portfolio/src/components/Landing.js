@@ -4,6 +4,15 @@ import ContactForm from './ContactForm';
 import Projects from './Projects';
 
 function Landing() {
+
+    const [tabletMode, setTabletMode] = useState(false);
+
+    const tablet_clicker = (e) => {
+        e.preventDefault();
+        setTabletMode(!tabletMode);
+    }
+
+    console.log(tabletMode)
     return (
         <div>
         <div className='landing_container'>
@@ -30,15 +39,17 @@ function Landing() {
                     <h2 className='title'>Joe Thompson</h2>
                     <h2 className='title'>Full Stack Web Developer</h2>
                 </div>
-
+                <button onClick={tablet_clicker} className='tablet_btn'>Show More</button>
                 <img src={Joe} alt='profile_photo' className='profile_photo' />
-
+                <div className={!tabletMode ? 'tablet_container': 'hide_sidebar'}>
+                <div className='tablet_mode'>
                 <h3 className='title'>Languages</h3>
                 <hr />
                 <p>JavaScript</p>
                 <p>Node.js</p>
                 <p>Python</p>
-
+                </div>
+                <div className='tablet_mode'>
                 <h3 className='title'>Frameworks</h3>
                 <hr />
                 <p>React</p>
@@ -46,12 +57,14 @@ function Landing() {
                 <p>GraphQL - Apollo</p>
                 <p>Django</p>
                 <p>Flask</p>
-
+                </div>
+                <div className='tablet_mode'>
                 <h3 className='title'>Databases</h3>
                 <hr />
                 <p>PostgreSQL</p>
                 <p>MySQL</p>
-
+                </div>
+                <div className='tablet_mode'>
                 <h3 className='title'>Tools</h3>
                 <hr />
                 <p>GIT / GitHub</p>
@@ -64,7 +77,10 @@ function Landing() {
                 <p>Adobe XD</p>
                 <p>PgAdmin</p>
                 <p>MY SQL Workbench</p>
-
+                </div>
+                </div>
+                {/*<button style={{display: !tabletMode ? "tablet_btn" : "none"}} onClick={tablet_clicker} className='tablet_btn'>Show Less</button>*/}
+                {/* TODO work on "show less" btn */}
             </div>
             </div>
             <Projects />

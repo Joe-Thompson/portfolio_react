@@ -1,9 +1,22 @@
 @import "variables";
+@import "mixins";
 
 .carousel_container {
   margin-left: 11rem;
   margin-top: -38rem;
   width: 60rem;
+
+  .responsive(1675px, {
+    margin: 0 auto;
+  });
+
+  .responsive(1050px, {
+    width: 45rem;
+  });
+
+  .responsive(755px, {
+    width: 38rem;
+  });
 
   img {
   border-radius: 1rem;
@@ -33,6 +46,14 @@
   width: 60rem;
   font-size: 1.5rem;
   line-height: 2rem;
+
+  .responsive(1050px, {
+    width: 45rem;
+  });
+
+  .responsive(755px, {
+    width: 35rem;
+  });
 
   h2 {
     padding-bottom: 1rem;
@@ -66,6 +87,18 @@
     background-color: @eggplant;
     color: @ghost_white;
   }
+
+  .responsive(1050px, {
+    a {
+      margin: 1rem auto;
+    }
+  });
+
+  .responsive(755px, {
+    a {
+      font-size: 1rem;
+    }
+  })
 }
 
 .tarot_img {
