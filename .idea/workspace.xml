@@ -2,25 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="585c2197-e9b3-481b-960e-fe0bd6306497" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/portfolio/src/images/dark_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/src/images/tar_card.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/src/images/tar_cards.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/src/images/tar_footer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/src/images/tar_ham_nav.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/src/images/tar_landing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/src/images/tar_login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/src/images/tar_note.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/src/images/tar_register.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Landing.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/less/contact.less" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/less/contact.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/less/darkmode.less" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/less/darkmode.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/less/landing.less" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/less/landing.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/less/navigation.less" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/less/navigation.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/less/project.less" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/less/project.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/less/variables.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +66,7 @@
       <workItem from="1608060761356" duration="18493000" />
       <workItem from="1608157074621" duration="11496000" />
       <workItem from="1608248457198" duration="8919000" />
-      <workItem from="1608331780493" duration="13410000" />
+      <workItem from="1608331780493" duration="24997000" />
     </task>
     <servers />
   </component>

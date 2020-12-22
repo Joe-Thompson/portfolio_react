@@ -39,7 +39,7 @@ function Landing() {
                     <h2 className='title'>Joe Thompson</h2>
                     <h2 className='title'>Full Stack Web Developer</h2>
                 </div>
-                <button onClick={tablet_clicker} className='tablet_btn'>Show More</button>
+                <button onClick={tablet_clicker} className='tablet_btn'>{!tabletMode ? 'View Skills' : 'Hide Skills'}</button>
                 <img src={Joe} alt='profile_photo' className='profile_photo' />
                 <div className={!tabletMode ? 'tablet_container': 'hide_sidebar'}>
                 <div className='tablet_mode'>
@@ -79,8 +79,6 @@ function Landing() {
                 <p>MY SQL Workbench</p>
                 </div>
                 </div>
-                {/*<button style={{display: !tabletMode ? "tablet_btn" : "none"}} onClick={tablet_clicker} className='tablet_btn'>Show Less</button>*/}
-                {/* TODO work on "show less" btn */}
             </div>
             </div>
             <Projects />
