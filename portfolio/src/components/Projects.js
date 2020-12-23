@@ -25,7 +25,6 @@ import tar_note from '../images/tar_note.png';
 
 function Projects() {
 
-    let niyon_link = 'https://master.d3p8i1bf0wxm1z.amplifyapp.com/';
     return (
         <div id="projects" className='carousel_container'>
             <h1>Projects</h1>
