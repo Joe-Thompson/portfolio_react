@@ -1,7 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/index.css';
 import Nav from "./components/Nav";
-import AppRouting from './utils/AppRouting';
 import Landing from './components/Landing';
 
 function App() {
