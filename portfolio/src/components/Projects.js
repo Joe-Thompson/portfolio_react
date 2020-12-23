@@ -116,13 +116,13 @@ function Projects() {
             <br />
             <h5>
                 Niyon was the capstone project for Lambda school, where I earned a certificate as
-                a full stack developer.  My main responsibility as a backend developer on this project
-                was to create a REST API that would perform CRUD operations for our users.  Routes that I
-                created included a sign up, login flow, creating and updating profiles, and routes to handle
+                a full stack developer.  My main responsibility as a member of the backend team
+                was to create a REST API that would perform CRUD operations for our users.  Routes that we
+                created include a sign up / login flow, creating and updating profiles, and routes to handle
                 our user's ability to connect with one another.  Another component on our frontend was a news feed
                 from dev.to.  By using dev.to's API we were able to create news feed, searchable by technology.
                 Testing for our backend repo was handled by jest and graded by code climate with a maintainability
-                score of A.  One of the main features of Niyon is the ability of join chat rooms based on what
+                score of A.  One of the main features of Niyon is the ability to join chat rooms based on what
                 technology you are interested in.  For our chat functionality we used Python-Flask, with
                 Flask-Socket.io.
             </h5>
