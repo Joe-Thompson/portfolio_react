@@ -4,12 +4,9 @@
     <list default="true" id="585c2197-e9b3-481b-960e-fe0bd6306497" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Landing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/less/contact.less" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/less/contact.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/less/landing.less" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/less/landing.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/less/navigation.less" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/less/navigation.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/less/project.less" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/less/project.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/utils/AppRouting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/utils/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/utils/axios.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +31,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Front-End" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../portfolio-postgres" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -66,7 +63,12 @@
       <workItem from="1608060761356" duration="18493000" />
       <workItem from="1608157074621" duration="11496000" />
       <workItem from="1608248457198" duration="8919000" />
-      <workItem from="1608331780493" duration="24997000" />
+      <workItem from="1608331780493" duration="26161000" />
+      <workItem from="1608604440602" duration="616000" />
+      <workItem from="1608637790027" duration="1453000" />
+      <workItem from="1608686506382" duration="600000" />
+      <workItem from="1608690712610" duration="620000" />
+      <workItem from="1608728088985" duration="1717000" />
     </task>
     <servers />
   </component>
