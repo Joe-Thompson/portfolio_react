@@ -1,7 +1,7 @@
 import React from 'react';
 import * as Yup from 'yup';
 import { useFormik } from 'formik';
-import Axios from '../utils/axios';
+import axios from 'axios';
 
 function ContactForm() {
 
@@ -17,9 +17,15 @@ function ContactForm() {
             message: Yup.string().required('Please enter a message.')
         }),
         onSubmit: values => {
-            Axios(values).then(r => console.log(r));
-            alert('Thank You for you submission');
-            window.location.reload();
+            axios.post('https://portfolio-thompson.herokuapp.com/message', values)
+                .then(res => {
+                    console.log(res);
+                    alert('Thank You for you submission');
+                    window.location.reload();
+                })
+                .catch(err => {
+                    return err
+                })
         }
     })
 
