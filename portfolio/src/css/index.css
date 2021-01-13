@@ -382,6 +382,11 @@ html {
 .show_less {
   display: none;
 }
+.linkedin_btn {
+  font-size: 2.5rem;
+  margin: 2rem 0;
+  padding: 2rem 0;
+}
 .contact_container {
   margin-top: 15rem;
 }
@@ -460,7 +465,7 @@ html {
 }
 .carousel_container {
   margin-left: 11rem;
-  margin-top: -38rem;
+  margin-top: -32rem;
   width: 60rem;
 }
 @media only screen and (max-width: 1675px) {
