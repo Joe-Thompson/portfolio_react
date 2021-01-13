@@ -12,7 +12,7 @@ function Landing() {
         setTabletMode(!tabletMode);
     }
 
-    console.log(tabletMode)
+    // TODO read through for spelling errors and grammar
     return (
         <div>
         <div className='landing_container'>
@@ -30,8 +30,11 @@ function Landing() {
                     our very own video game.  With no programming experience in the group we decided to take the
                     plunge in the deep end with C++.  Needless to say the project fell flat, but it also created
                     a life long love of programming for me.
-
                 </p>
+                    <br />
+                    To learn more head on over to my LinkedIn profile.
+                    <br />
+                    <a className='linkedin_btn' href='https://www.linkedin.com/in/j-thompson/'><ion-icon name="logo-linkedin"></ion-icon></a>
                 <br />
             </div>
             <div className='side_bar'>
