@@ -37,7 +37,7 @@ function Projects() {
                         alt="First slide"
                     />
                     <br />
-                    <Carousel.Caption>
+                    <Carousel.Caption className='caps'>
                         <p>Login component for new and existing users.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -48,7 +48,7 @@ function Projects() {
                         alt="Third slide"
                     />
                     <br />
-                    <Carousel.Caption>
+                    <Carousel.Caption className='caps'>
                         <p>User dashboard, shows current connections and requests.  Also has a google
                         map to show where your connections are located.</p>
                     </Carousel.Caption>
@@ -60,7 +60,7 @@ function Projects() {
                         alt="Third slide"
                     />
                     <br />
-                    <Carousel.Caption>
+                    <Carousel.Caption className='caps'>
                         <p>Component for user to update their profile section.  The values here
                         are what other users will search by. </p>
                     </Carousel.Caption>
@@ -72,7 +72,7 @@ function Projects() {
                         alt="First slide"
                     />
                     <br />
-                    <Carousel.Caption>
+                    <Carousel.Caption className='caps'>
                         <p>Mentors and mentees have the ability to search by job title, location,
                         or technology stack to send a request to connect to other users.</p>
                     </Carousel.Caption>
@@ -84,7 +84,7 @@ function Projects() {
                         alt="First slide"
                     />
                     <br />
-                    <Carousel.Caption>
+                    <Carousel.Caption className='caps'>
                         <p>Users have the ability to join rooms based on a list of languages, frameworks, or
                         soft-skills such as interviewing. </p>
                     </Carousel.Caption>
@@ -96,7 +96,7 @@ function Projects() {
                         alt="First slide"
                     />
                     <br />
-                    <Carousel.Caption>
+                    <Carousel.Caption className='caps'>
                         <p>Chat rooms are a great way to have lively discussion.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -142,7 +142,7 @@ function Projects() {
                             alt="First slide"
                         />
                         <br />
-                        <Carousel.Caption>
+                        <Carousel.Caption className='caps'>
                             <p>Login component for new and existing users.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -153,7 +153,7 @@ function Projects() {
                             alt="First slide"
                         />
                         <br />
-                        <Carousel.Caption>
+                        <Carousel.Caption className='caps'>
                             <p>User dashboard, can easily view tickets and their status.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -164,7 +164,7 @@ function Projects() {
                             alt="First slide"
                         />
                         <br />
-                        <Carousel.Caption>
+                        <Carousel.Caption className='caps'>
                             <p>Form for users to create tickets.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -175,7 +175,7 @@ function Projects() {
                             alt="First slide"
                         />
                         <br />
-                        <Carousel.Caption>
+                        <Carousel.Caption className='caps'>
                             <p>User's have the ability to update their tickets with new things
                                 they may have tried or a solution, they can also change the status
                                 of their ticket.
@@ -189,7 +189,7 @@ function Projects() {
                             alt="Third slide"
                         />
                         <br />
-                        <Carousel.Caption>
+                        <Carousel.Caption className='caps'>
                             <p>User's can search by category for open tickets to help resolve.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -200,7 +200,7 @@ function Projects() {
                             alt="Third slide"
                         />
                         <br />
-                        <Carousel.Caption>
+                        <Carousel.Caption className='caps'>
                             <p>User's can leave comments on other user's tickets.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -254,7 +254,7 @@ function Projects() {
                         />
                         </div>
                         <br />
-                        <Carousel.Caption>
+                        <Carousel.Caption className='caps'>
                             <p id='tarot_p_background' className='tarot_p'>Login component for existing users and a route to
                             our registration component for new users.</p>
                         </Carousel.Caption>
@@ -273,7 +273,7 @@ function Projects() {
                             />
                         </div>
                         <br />
-                        <Carousel.Caption>
+                        <Carousel.Caption className='caps'>
                             <p id='tarot_p_background' className='tarot_p'>The landing component has a brief introduction to
                             watch tarot cards are and how to read them.  Hidden hamburger
                             menu for easy navigation on mobile.</p>
@@ -293,7 +293,7 @@ function Projects() {
                             />
                         </div>
                         <br />
-                        <Carousel.Caption>
+                        <Carousel.Caption className='caps'>
                             <p id='tarot_p_background' className='tarot_p'>A footer navigation menu is present on the landing page for
                                 the user to easily jump in.  Every category has all cards
                             listed with their quote.</p>
@@ -313,7 +313,7 @@ function Projects() {
                             />
                         </div>
                         <br />
-                        <Carousel.Caption>
+                        <Carousel.Caption className='caps'>
                             <p id='tarot_p_background' className='tarot_p'>Selecting a card gives the user an in depth summary of the card
                             and how to read the card in each position.  Every card also has a thread
                             for users to post their own interruption of the card. </p>
